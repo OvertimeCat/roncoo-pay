@@ -41,7 +41,9 @@ public class RpUserPayConfig extends BaseEntity implements Serializable {
     private String userNo;
 
     private String userName;
-
+    /**
+     * 风险预存期天数
+     */
     private Integer riskDay;
     
     private String payKey;
